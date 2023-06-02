@@ -8,10 +8,6 @@
 body {
     background-color: rgb(93, 93, 93);
     color: rgb(255, 255, 255);
-}
-a {
-    color: rgb(255, 0, 0);
-}
 
 .cabecalho {
     background-color:black ;
@@ -24,17 +20,46 @@ a {
     margin: 0 auto;
     padding: 0 0.5rem;
     height: 100%;
-
-    border: 1px solid red;
 }
 
 .cabecalho-titulo{
     font-size: 2.5rem;
     font-weight: bold;
     align-self: center;
+    color: red;
 }
 
 .cabecalho-menu {
     align-self: center;
 
+}
+
+.cabecalho-link {
+    text-decoration: none;
+    padding-left: 0.8rem;
+    color: rgb(255, 0, 0);
+}
+
+.cabecalho-link:hover {
+    color:lightyellow;
+    font-size: 1.5rem;
+}
+
+.principal-conteudo{
+    width: 80%;
+    margin: 0 auto; /*Centraliza */
+    padding: 0.5rem;
+    min-height: calc(100vh - 5rem);
+    background-color: rgb(111, 111, 111);
+}
+
+.principal-titulo {
+    font-size: 1.5rem; /*Tamanho da fonte*/
+    font-weight: bold; /* Negrito */
+    color: rgb(255, 255, 255); /* Cor */
+    padding-bottom: 0.75rem; /* espaçamento inferior*/
+}
+
+.principal-texto {
+    padding-bottom: 0.75rem;
 }
