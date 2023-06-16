@@ -65,6 +65,26 @@ body {
     padding-bottom: 0.75rem;
 }
 
+.principal-linha {
+    border: 1px dotted red
+}
+
+.principal-subtitulo {
+    font-size: 1.25rem; /*Tamanho da fonte*/
+    font-weight: bold; /* Negrito */
+    color: rgb(255, 191, 0); /* Cor */
+    padding-bottom: 0.5rem; /* espaçamento inferior*/
+    padding-bottom: 0.5rem;
+}
+
+.principal-marcadores {
+    list-style-type: circle;
+}
+
+.principal-numeracao {
+    list-style:upper-roman;
+}
+
 .rodape {
     height: 5rem;
     background-color: black;
@@ -89,4 +109,9 @@ body {
 .rodape-icone {
     width: 2.5rem;
     height: 2.5rem;
+}
+
+.rodape-icone:hover {
+    background-color: rgb(255, 0, 0);
+    border-radius: 100%;
 }
