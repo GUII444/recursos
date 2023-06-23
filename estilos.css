@@ -63,6 +63,7 @@ body {
 
 .principal-texto {
     padding-bottom: 0.75rem;
+    clear: both;
 }
 
 .principal-linha {
@@ -83,6 +84,17 @@ body {
 
 .principal-numeracao {
     list-style:upper-roman;
+}
+
+.principal-caixa {
+    display: block;
+}
+
+.principal-imagem {
+    width: 576px; /*largura*/
+    height: 324px; /*altura*/
+    float: left; /*texto a direita*/
+    
 }
 
 .rodape {
