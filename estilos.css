@@ -142,6 +142,40 @@ body {
     background-color: rgb(205, 205, 205);
 }
 
+.formulario-label{
+    display: block;
+}
+
+.formulario-caixa{
+    display: block;
+    width: 60%;
+    padding: 0.3rem;
+    border-radius: 0.5rem;
+    margin: 0.7rem 0;
+}
+
+.formulario-caixa:focus{
+    background-color: rgb(253, 222, 222);
+    border: 2px solid white;
+}
+
+.formulario-botao-enviar{
+    background-color: rgb(147, 217, 163);
+    width: 5rem;
+    padding: 0.4rem;
+    border-radius: 0.5rem;
+    color: white;
+    cursor: pointer;
+}
+
+.formulario-botao-enviar:hover{
+    background-color:rgb(119, 178, 133) ;
+}
+
+.formulario-areatexto {
+    resize: none;
+}
+
 .rodape {
     height: 5rem;
     background-color: black;
